@@ -7,14 +7,14 @@
 <body data-ng-controller="aglController">
     Male
     <ul>
-        <li data-ng-repeat="item in items | objectFilter:genderPara:petType">
+        <li data-ng-repeat="item in items | objectFilter:genderMale:petType">
             {{item}}
         </li>
     </ul>
 
     Female
     <ul>
-        <li data-ng-repeat="item in items | objectFilter:genderParaF:petType">
+        <li data-ng-repeat="item in items | objectFilter:genderFemale:petType">
             {{item}}
         </li>
     </ul>
